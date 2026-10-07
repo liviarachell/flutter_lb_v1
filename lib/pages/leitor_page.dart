@@ -6,8 +6,6 @@ import 'package:flutter/material.dart';
 import '../data/book_content_service.dart';
 import '../data/reading_repository.dart';
 import '../models/book.dart';
-import '../theme/app_theme.dart';
-import '../widgets/book_cover.dart';
 import '../widgets/round_back_button.dart';
 
 class LeitorPage extends StatefulWidget {

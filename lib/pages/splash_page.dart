@@ -19,7 +19,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    _timer = Timer(const Duration(milliseconds: 2200), () {
+    _timer = Timer(const Duration(milliseconds: 2000), () {
       if (mounted) Navigator.of(context).pushReplacementNamed('/login');
     });
   }

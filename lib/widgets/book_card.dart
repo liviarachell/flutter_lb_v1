@@ -44,7 +44,7 @@ class BookCard extends StatelessWidget {
             child: Container(
               padding: const EdgeInsets.fromLTRB(12, 10, 12, 12),
               decoration: const BoxDecoration(
-                color: AppColors.cardOlive,
+                color: Color.fromARGB(255, 98, 101, 136),
                 borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
               ),
               child: Column(
@@ -65,7 +65,7 @@ class BookCard extends StatelessWidget {
                       Container(
                         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 3),
                         decoration: BoxDecoration(
-                          color: AppColors.badgeOlive,
+                          color: const Color.fromARGB(255, 104, 111, 196),
                           borderRadius: BorderRadius.circular(12),
                         ),
                         child: Text('${book.year}', style: AppText.playfair(10)),
